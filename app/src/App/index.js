@@ -3,11 +3,13 @@ import * as React from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
 
 import Tasks from "../Tasks";
+import Navbar from "../components/Navbar";
 
 import styles from "./styles.module.scss";
 
 const App = () => (
   <>
+    <Navbar />
     <header>
       <nav className={styles.nav}>
         <NavLink to="/" end>

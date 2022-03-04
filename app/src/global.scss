@@ -25,3 +25,19 @@ h1 {
   font-size: 1.25rem;
   margin: 1.5rem 0 0.5rem;
 }
+
+.navbar {
+  display: flex;
+  position: fixed;
+  height: 96px;
+  width: 100vw;
+
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+
+  background-color: white;
+  border-bottom: 5px solid #065087;
+  box-shadow: 0 5px 0 #FA8763;
+}
